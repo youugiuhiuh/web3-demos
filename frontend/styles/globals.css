@@ -6,7 +6,4 @@
   --color-secondary: #06b6d4;
 }
 
-body {
-  background-color: #010409;
-  color: #c9d1d9;
-}
+@custom-variant dark (&:where(.dark, .dark *));
