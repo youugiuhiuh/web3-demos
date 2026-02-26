@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "eyes",
+  "owner": "mintuz",
+  "repo": "claude-plugins",
+  "path": "plugins/web/skills/eyes",
+  "branch": "main",
+  "sha": "a821de21bcc0bd25f54f9e77884d65666177ab88",
+  "source": "manual"
+}
