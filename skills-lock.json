@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "skill-builder": {
+      "source": "rysweet/amplihack",
+      "sourceType": "github",
+      "computedHash": "8414b1ea5d30b572173e2fec971c5a0314df31759f2dfaa3da8ec603f9f3c614"
+    }
+  }
+}
