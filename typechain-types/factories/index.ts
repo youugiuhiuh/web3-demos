@@ -2,3 +2,4 @@
 /* tslint:disable */
 /* eslint-disable */
 export { Greeting__factory } from "./Greeting__factory";
+export { MessageBoard__factory } from "./MessageBoard__factory";

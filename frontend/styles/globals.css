@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "@rainbow-me/rainbowkit/styles.css";
+
+@theme {
+  --color-primary: #8b5cf6;
+  --color-secondary: #06b6d4;
+}
+
+body {
+  background-color: #010409;
+  color: #c9d1d9;
+}

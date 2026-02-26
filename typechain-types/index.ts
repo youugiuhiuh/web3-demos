@@ -2,5 +2,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type { Greeting } from "./Greeting";
+export type { MessageBoard } from "./MessageBoard";
 export * as factories from "./factories";
 export { Greeting__factory } from "./factories/Greeting__factory";
+export { MessageBoard__factory } from "./factories/MessageBoard__factory";
