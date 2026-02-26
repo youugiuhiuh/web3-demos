@@ -3,10 +3,16 @@
 import { motion } from "framer-motion";
 import { Github } from "lucide-react";
 import MessageBoardCard from "../components/MessageBoardCard";
+import { ThemeToggle } from "../components/ThemeToggle";
 
 export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col items-center justify-center p-6 lg:p-24 overflow-hidden relative w-full">
+			{/* Theme Toggle Component - Absolute Top Right */}
+			<div className="absolute top-6 right-6 z-50">
+				<ThemeToggle />
+			</div>
+
 			{/* Hero Section */}
 			<motion.div
 				initial={{ opacity: 0, y: -20 }}
@@ -14,18 +20,18 @@ export default function Home() {
 				transition={{ duration: 0.7, ease: "easeOut" }}
 				className="text-center space-y-4 mb-16 z-10 mt-12 lg:mt-0"
 			>
-				<div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-sm font-medium mb-4">
+				<div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-600 dark:text-cyan-400 text-sm font-medium mb-4">
 					<span className="relative flex h-2 w-2">
-						<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
-						<span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
+						<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75" />
+						<span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500" />
 					</span>
 					Sepolia Testnet Live
 				</div>
 
-				<h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-white via-slate-200 to-slate-500 pb-2">
+				<h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-slate-800 via-slate-600 to-slate-400 dark:from-white dark:via-slate-200 dark:to-slate-500 pb-2">
 					Web3 Showcase
 				</h1>
-				<p className="max-w-xl mx-auto text-lg md:text-xl text-slate-400 leading-relaxed font-light">
+				<p className="max-w-xl mx-auto text-lg md:text-xl text-slate-600 dark:text-slate-400 leading-relaxed font-light">
 					A modern demonstration of decentralized state reading, writing, and
 					elegant UI design using Wagmi, Next 15, and Framer Motion.
 				</p>
