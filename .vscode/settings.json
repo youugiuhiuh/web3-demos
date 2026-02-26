@@ -2,7 +2,6 @@
 	// 1. Set Prettier as the global default formatter
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
-
 	// 2. Override the default formatter for specific languages supported by Biome
 	"[javascript]": {
 		"editor.defaultFormatter": "biomejs.biome"
@@ -20,7 +19,7 @@
 		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"[jsonc]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[css]": {
 		"editor.defaultFormatter": "biomejs.biome"
